@@ -1,14 +1,14 @@
-# Generated with JReleaser 1.12.0 at 2024-06-15T19:39:42.433922569Z
+# Generated with JReleaser 1.12.0 at 2024-06-16T15:05:22.048143923Z
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = 'xpipe-ptb'
   fileType      = 'msi'
-  url           = 'https://github.com/xpipe-io/xpipe-ptb/releases/download/10.0-5/xpipe-installer-windows-x86_64.msi'
+  url           = 'https://github.com/xpipe-io/xpipe-ptb/releases/download/10.0-6/xpipe-installer-windows-x86_64.msi'
   silentArgs    = "/quiet"
   validExitCodes= @(0)
   softwareName  = 'xpipe-ptb*'
-  checksum      = 'a89ca782c7fd594e14b477f9fbd9db97497968e10a7a987883c72f8e1657aafd'
+  checksum      = '5572c841a1a1c903621d566ce87140df0d14ca004b8f1bcc76c7723ed2c0cb1d'
   checksumType  = 'sha256'
 }
 
